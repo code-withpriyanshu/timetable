@@ -39,7 +39,7 @@ div >h1{
 /* main */
 
 .main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80vw;
     margin: auto;
     height: fit-content;
@@ -51,13 +51,27 @@ div >h1{
     
 }
 .days{
-    border: 1px solid black;
-    width: 18vw;
-    height: 18vw;
+    /* border: 1px solid black; */
+    width: fit-content;
+    padding: 20px;
+    height: fit-content;
     background-color: #ff6857;
     color: white;
     border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7vw;
+    align-items: center;
     
+}
+
+.days > h2{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: black;
 }
 .days:hover{
     transition: all 0.3s;
@@ -65,11 +79,28 @@ div >h1{
     color: rgb(255, 98, 98);
     
 }
-.days > h2{
-    text-align: center;
-    margin-top: 1vw;
-    font-size: 2vw;
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
+
+
+
+/* content in the box tim location subjec */
+
+li{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    list-style: none;
+    font-family: system-ui;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+}
+
+p{
+    font-size: 25px;
+}
+li:hover{
+    color: #d3f240;
 }
 

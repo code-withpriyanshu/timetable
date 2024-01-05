@@ -14,11 +14,17 @@
         width:fit-content;
     }
     .days{
-        height: 500px;
+        height: fit-content;
         width: 400px;
     }
 
     .days > h2{
         font-size: 30px;
+    }
+    ul{
+        row-gap: 5vw;
+    }
+    li{
+        column-gap: 1.9vw;
     }
 }
