@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
     .days{
         margin: 2px;
         width: 320px;
