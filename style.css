@@ -90,6 +90,7 @@ li{
     column-gap: 1vw;
     list-style: none;
     font-family: system-ui;
+    justify-content: space-between;
 }
 ul{
     display: flex;
