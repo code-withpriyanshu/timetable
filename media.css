@@ -1,0 +1,24 @@
+@media screen and (max-width:600px) {
+    div >h1{
+        font-size: 60px;
+        margin-top: 2vw;
+    }
+    .sub{
+        font-size: 40px;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width:90% ;
+    }
+    .days{
+        height: 500px;
+        width: 400px;
+    }
+
+    .days > h2{
+        font-size: 30px;
+    }
+}
