@@ -28,3 +28,9 @@
         column-gap: 1.9vw;
     }
 }
+
+@media screen and (max-width: 450px){
+    .days{
+        margin: 2px;
+    }
+}
