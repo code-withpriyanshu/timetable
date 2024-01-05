@@ -32,5 +32,15 @@
 @media screen and (max-width: 450px){
     .days{
         margin: 2px;
+        width: 320px;
+
+    }
+    li > p{
+        font-size: 15px;
+    }
+    div >h1{
+        
+        font-size: 45px;
+        text-align: center;
     }
 }
