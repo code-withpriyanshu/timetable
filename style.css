@@ -71,7 +71,7 @@ div >h1{
     font-size: 48px;
     font-family: "Raleway", sans-serif;
     font-weight: 200;
-    color: black;
+    color: #d3f240;
 }
 .days:hover{
     transition: all 0.3s;
@@ -99,8 +99,5 @@ ul{
 
 p{
     font-size: 25px;
-}
-li:hover{
-    color: #d3f240;
 }
 
