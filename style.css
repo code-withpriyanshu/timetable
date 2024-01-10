@@ -33,7 +33,7 @@ div >h1{
     justify-content: center;
 }
 #special{
-    color: #c95245;
+    color: #00b4d8;
 }
 
 /* main */
@@ -55,8 +55,8 @@ div >h1{
     width: fit-content;
     padding: 35px;
     height: fit-content;
-    background-color: #ff6857;
-    color: white;
+    background-color: #ade8f4;
+    color: black;
     border-radius: 1vw;
     display: flex;
     flex-direction: column;
@@ -71,12 +71,12 @@ div >h1{
     font-size: 48px;
     font-family: "Raleway", sans-serif;
     font-weight: 200;
-    color: #d3f240;
+    color: #03045e;
 }
 .days:hover{
     transition: all 0.3s;
     background: black;
-    color: rgb(255, 98, 98);
+    color: white;
     
 }
 
