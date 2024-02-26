@@ -24,7 +24,7 @@ body{
 div >h1{
     font-size: 120px;
     text-align: center;
-    color: black;
+    color: #F54952;
     font-family: "Raleway", sans-serif;
     font-weight: 200;
 }
@@ -34,6 +34,7 @@ div >h1{
 }
 #special{
     color: #00343e;
+    color: #F54952;
 }
 
 /* main */
@@ -55,7 +56,7 @@ div >h1{
     width: fit-content;
     padding: 35px;
     height: fit-content;
-    background-color: #ade8f4;
+    background-color: rgb(196, 87, 87);
     color: black;
     border-radius: 1vw;
     display: flex;
@@ -83,29 +84,35 @@ div >h1{
 .container {
     width: 100%;
     height: 100%;
-    --s: 222px;
-    --c1: #ade8f4;
-    --c2: #00b4d8;
-    --c3: #58c9e0;
-  
-    --_g: var(--c1) 10%, var(--c2) 10.5% 19%, #0000 19.5% 80.5%,
-      var(--c2) 81% 89.5%, var(--c3) 90%;
-    --_c: from -90deg at 37.5% 50%, #0000 75%;
-    --_l1: linear-gradient(145deg, var(--_g));
-    --_l2: linear-gradient(35deg, var(--_g));
-    background: var(--_l1), var(--_l1) calc(var(--s) / 2) var(--s), var(--_l2),
-      var(--_l2) calc(var(--s) / 2) var(--s),
-      conic-gradient(var(--_c), var(--c1) 0) calc(var(--s) / 8) 0,
-      conic-gradient(var(--_c), var(--c3) 0) calc(var(--s) / 2) 0,
-      linear-gradient(
-        90deg,
-        var(--c3) 38%,
-        var(--c1) 0 50%,
-        var(--c3) 0 62%,
-        var(--c1) 0
-      );
-    background-size: var(--s) calc(2 * var(--s) / 3);
+    background: #F54952;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
   }
+  
+  .container::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, #422680 10%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #422680 20%);
+    background-size: 30px 30px; /* Adjust the size of the pattern */
+    animation: moveBackground 16s linear infinite; /* Adjust the animation duration and timing function */
+  }
+  
+  @keyframes moveBackground {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(20%, 20%);
+    }
+  }
+  
   
 
 
