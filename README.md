@@ -25,6 +25,12 @@ This project aims to provide a visually appealing representation of a class time
 
 To use this project, simply download or clone the repository to your local machine and open the `index.html` file in a web browser. You can view the timetable and make any necessary adjustments directly in the HTML or CSS files to suit your needs.
 
+## Features
+ Link for the website  https://1b7timetable.netlify.app
+
+
+
 ```bash
 git clone https://github.com/your-username/class-timetable.git
 cd class-timetable
+
